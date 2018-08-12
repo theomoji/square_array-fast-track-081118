@@ -1,10 +1,10 @@
 def square_array(array)
   array.each do |num|
-    new_arr = []
+    new = Array.new
     squared = num * num
-    new_arr << squared
+    new << squared
   end
-  return new_arr
+  return new
 end
 
 
