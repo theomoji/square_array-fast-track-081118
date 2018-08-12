@@ -10,7 +10,7 @@
 def square_array(array)
 arr.map do |num|
   num * num
-end
+  end
 end
 
 
