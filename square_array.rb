@@ -9,7 +9,6 @@
 
 def square_array(array)
 arr.map! { |num| num * num}
-return array
 end
 
 
