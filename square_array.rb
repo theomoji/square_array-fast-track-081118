@@ -8,9 +8,7 @@
 # end
 
 def square_array(array)
-arr.map do |num|
-  num * num
-  end
+arr.map! { |num| num * num}
 end
 
 
